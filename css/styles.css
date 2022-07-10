@@ -52,7 +52,9 @@ border: 1px solid #ECECEC;
  align-items: center;
  
 }
- .header-nav, .header-list,.header-contacts {
+ .header-nav,
+ .header-list,
+ .header-contacts {
     display: flex;
 }
 .header-nav{
@@ -66,6 +68,7 @@ line-height: 1.19;
 color: #000;
 }
 .logo-header{
+ display: block;
  margin-right: 93px;
 padding-top: 24px;
 padding-bottom: 25px;
@@ -74,14 +77,15 @@ padding-bottom: 25px;
 color: var(--accent-color);
 }
 .header-list,.header-contacts {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    gap: 50px;
-    align-items: center;
+ gap: 50px;
+ align-items: center;
 }
+
 .header-link,
 .contact-link{
  display: block;
+ padding-top: 32px;
+ padding-bottom: 32px;
  font-weight: 500;
  line-height: 1.14;
  letter-spacing: 0.02em;
@@ -94,6 +98,7 @@ color: var(--accent-color);
 .contact-link:focus {
 color: var(--accent-color);
 }
+
 .header-link-current{
  color: var(--accent-color);
 }
@@ -104,14 +109,15 @@ color: var(--accent-color);
 
 /*Hero section*/
 .hero {
+ padding-top: 200px;
+ padding-bottom: 200px;
  text-align: center;
  background-color: var(--dark-bg-color);
  
 }
 .main-title {
-   min-width: 696px;
-    min-height: 120px;
-    margin-bottom: 30px;
+ min-width: 696px;
+ margin-bottom: 30px;
  font-weight: 900;
  font-size: 44px;
  line-height: 1,36;
@@ -124,7 +130,7 @@ color: var(--accent-color);
     min-width: 200px;
     min-height: 50px;
     
-    padding: 10px 32px;
+ padding: 10px 32px;
  font-family: inherit;
  font-weight: 700;
  font-size: 16px;
@@ -152,6 +158,7 @@ color: var(--accent-color);
 }
 
 .features-subtitle{
+ margin-bottom: 10px;   
  font-weight: 700;
  font-size: 14px;
  line-height: 1.14;
@@ -163,9 +170,12 @@ color: var(--accent-color);
  color: var(--primary-text-color);
 }
 /*Services section*/
+.services{
+    padding-bottom: 94px;
+}
 
 .section-title{
-    margin-bottom: 50px;
+ margin-bottom: 50px;
  font-weight: 700;
  font-size: 36px;
  line-height: 1.16;
@@ -193,7 +203,8 @@ background-color:#F5F4FA;
   border-radius: 0px 0px 4px 4px;
 }
 .team-wrapper{
-padding: 30px 59px;
+padding: 10px 10px;
+text-align: center;
 }
 .team-subtitle{
  margin-bottom: 10px;
@@ -285,8 +296,12 @@ background-color: var(--accent-color);
  padding-bottom: 60px;
  background-color: var(--dark-bg-color);
 }
-.container-adres{
-    margin-top: 20px;
+.footer-logo{
+    margin-bottom: 20px;
+    display: block;
+}
+.footer-addres{
+ margin-bottom: 9px;
 }
 .logo-footer-white{
     color: var(--primary-white-color);
@@ -299,7 +314,10 @@ background-color: var(--accent-color);
  line-height: 1.7;
  color: var(--primary-white-color);
 }
-
+.footer-mail{
+    margin-bottom: 9px;
+    display: block;
+}
 .footer-mail,
 .footer-phone{
     color: rgba(255, 255, 255, 0.6);
