@@ -45,7 +45,7 @@ img{
 }
 /*Header section*/
 .header{
-border: 1px solid #ECECEC;    
+border-bottom: 1px solid #ECECEC;    
 }
 .header-container{
  display: flex;
@@ -116,7 +116,8 @@ color: var(--accent-color);
  
 }
 .main-title {
- min-width: 696px;
+ width: 696px;
+ margin: 0 auto;
  margin-bottom: 30px;
  font-weight: 900;
  font-size: 44px;
@@ -203,7 +204,7 @@ background-color:#F5F4FA;
   border-radius: 0px 0px 4px 4px;
 }
 .team-wrapper{
-padding: 10px 10px;
+padding: 30px 10px;
 text-align: center;
 }
 .team-subtitle{
